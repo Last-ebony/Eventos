@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #7b4ae2;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    margin-bottom: 10px;
+    border: 1px solid #7a4ae283; /* Añade un borde para resaltar la caja de texto */
+    border-radius: 5px; /* Ajusta la redondez de las esquinas */
+    background-color: #0f1120; /* Cambia el color de fondo según tus preferencias */
+    color: #ffffff; /* Cambia el color del texto según tus preferencias */
+  }
+
+html, body {
+  height: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #090e16;
+
+}
+
+form p {
+    margin-bottom: 5px; /* Separación de las lineas de texto */
+    font-family: "Roboto", sans-serif; /* Tipo de letra del formulario */
+    
+  }
+
+.loginCont {
+  text-align: center;
+}
+
+.inputLog {
+    margin-bottom: 10px;
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    border: 1px solid #7a4ae283; /* Añade un borde para resaltar la caja de texto */
+    border-radius: 5px; /* Ajusta la redondez de las esquinas */
+    background-color: #0f1120; /* Cambia el color de fondo según tus preferencias */
+    color: #ffffff; /* Cambia el color del texto según tus preferencias */
+  }
+
+  .inputLog::placeholder {
+    color: #ffffff81;
+  }
+
+.btnLog {
+  margin: 0.5em 0.5em;
+  border: none;
+  box-shadow: none;
+  padding: 10px 20px;
+  color: #7b4ae2;
+  font-size: medium;
+  font-weight: 800;
+  border-radius: 0.3em;
+  background-color: #0f1120;
+  width: auto;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btnLog:hover {
+  cursor: pointer;
+  color: #fff;
+  transform: scale(1.01);
+}
+
+.inputLog::placeholder {
+  color: #ffffff81;
+}
+
+.imgLogin {
+  opacity: 0.7;
+  border-radius: 50%;
+  margin: 2em 0;
+  width: 10em;
+  height: 10em;
+}
+
+.btnReg {
+  color: #ffffff85;
+  font-size: 0.8em;
+}
