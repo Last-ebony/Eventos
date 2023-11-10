@@ -14,8 +14,8 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
     margin-bottom: 10px;
     border: 1px solid #7a4ae283; /* Añade un borde para resaltar la caja de texto */
     border-radius: 5px; /* Ajusta la redondez de las esquinas */
-    background-color: #0f1120; /* Cambia el color de fondo según tus preferencias */
-    color: #ffffff; /* Cambia el color del texto según tus preferencias */
+    background-color: #0f1120; /* Cambia el color de fondo */
+    color: #ffffff; /* Cambia el color del texto */
   }
 
 html, body {
